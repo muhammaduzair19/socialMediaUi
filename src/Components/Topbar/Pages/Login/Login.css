@@ -1,0 +1,99 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.loginWrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    width: 70%;
+}
+
+.loginText {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginBox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.loginBoxWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    background-color: white;
+}
+
+.loginLogo {
+    font-size: 50px;
+    color: #1877f2;
+    font-weight: 800;
+}
+
+.loginDescription {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.loginBox {
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton,
+.createANewAccount {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.forgotPassword {
+    cursor: pointer;
+    font-size: 15px;
+    color: #1877f2;
+    text-align: center;
+}
+
+.createANewAccount {
+    width: 70%;
+    background-color: #42b72a;
+}
